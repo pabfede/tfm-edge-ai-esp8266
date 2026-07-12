@@ -1,0 +1,41 @@
+[
+  {
+    "Arquitectura":"Conv-AE",
+    "Parámetros":5102,
+    "Compatible TFLM":"True",
+    "TFLite f32 (KB)":34.23,
+    "INT8 est. (KB)":8.56,
+    "RAM ESP8266 (KB)":17.12,
+    "Val loss (30ep)":0.010383,
+    "Latencia ms":77.31,
+    "Latencia p95 ms":81.85,
+    "Viable RAM":"True",
+    "Viable latencia":"True"
+  },
+  {
+    "Arquitectura":"LSTM-AE",
+    "Parámetros":16710,
+    "Compatible TFLM":"False",
+    "TFLite f32 (KB)":"N\/A",
+    "INT8 est. (KB)":"N\/A",
+    "RAM ESP8266 (KB)":"N\/A",
+    "Val loss (30ep)":0.010263,
+    "Latencia ms":81.45,
+    "Latencia p95 ms":86.44,
+    "Viable RAM":"False",
+    "Viable latencia":"True"
+  },
+  {
+    "Arquitectura":"Hibrido-AE",
+    "Parámetros":7622,
+    "Compatible TFLM":"False",
+    "TFLite f32 (KB)":"N\/A",
+    "INT8 est. (KB)":"N\/A",
+    "RAM ESP8266 (KB)":"N\/A",
+    "Val loss (30ep)":0.004198,
+    "Latencia ms":79.64,
+    "Latencia p95 ms":83.64,
+    "Viable RAM":"False",
+    "Viable latencia":"True"
+  }
+]

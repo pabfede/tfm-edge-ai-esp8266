@@ -1,0 +1,23 @@
+{
+  "arquitectura": "Conv-AE (Conv1D Autoencoder)",
+  "parametros": 5102,
+  "tam_keras_kb": 130.11,
+  "tam_tflite_f32_kb": 34.7,
+  "tam_int8_estimado_kb": 8.68,
+  "ram_esp8266_estimada_kb": 17.35,
+  "f1_fault_injection": 0.313,
+  "precision": 0.5143,
+  "recall": 0.225,
+  "auc_roc": 0.5684,
+  "corr_proxy_dod": 0.1074,
+  "latencia_media_ms": 78.41,
+  "latencia_p95_ms": 82.63,
+  "umbral_anomalia": 0.017494,
+  "epocas_entrenamiento": 38,
+  "mejor_val_loss": 0.010383,
+  "restriccion_ram_kb": 60,
+  "restriccion_latencia_ms": 500,
+  "degradacion_f1_max_pct": 10,
+  "cumple_ram": true,
+  "cumple_latencia_python": true
+}

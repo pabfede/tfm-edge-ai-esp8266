@@ -1,0 +1,18 @@
+{
+  "senales_entrada": [
+    "Heart Rate",
+    "SBP",
+    "DBP",
+    "SpO2",
+    "Respiratory Rate",
+    "MAP"
+  ],
+  "n_senales": 6,
+  "ventana_horas": 24,
+  "solapamiento": 12,
+  "resolucion": "1h",
+  "gap_max_horas": 4,
+  "seed": 42,
+  "arquitectura": "Conv-AE (Conv1D Autoencoder)",
+  "input_shape": "(24, 6)"
+}
