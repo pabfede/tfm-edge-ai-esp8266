@@ -1,0 +1,18 @@
+# Datos MIMIC-III (nunca deben subirse, ver README y licencia ODbL)
+*.csv
+mimic-iii*/
+mimic-iii-clinical-database-demo*/
+
+# Entornos Python
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Arduino
+build/
+*.hex
+
+# Sistema
+.DS_Store
+Thumbs.db
